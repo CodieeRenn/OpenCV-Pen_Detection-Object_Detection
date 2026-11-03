@@ -4,6 +4,7 @@ from ultralytics import YOLO
 
 # Load model
 
+# make sure to correct the path
 model = YOLO('./runs/detect/train/weights/best.pt')
 
 # Open webcam
